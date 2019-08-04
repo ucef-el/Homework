@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*SITE NAVIGATION*/
+nav {
+    margin: 77px 0;
+}
+.navigation_items a:hover,
+.navigation_items a:focus {
+    color: aqua;
+}
+.navigation {
+    text-align: center;
+    margin-right: 166px;
+}
+.navigation_items li{
+    display: inline-block;
+    margin-left: 102px;
+    vertical-align: middle;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: normal;
+}
+/*main menu items*/
+.menu_items {
+    margin-top: 27px;
+    padding: 0px;
+}
+main {
+    text-align: center
+}
+.main-menu-items {
+    width: 421px;
+    display: inline-block;
+    margin-right: 61px;
+}
+
+img {
+    display: inline-block;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.pic-name {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgb(194, 184, 184);
+    line-height: auto;
+}
+
+main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(100, 88, 88);
+    line-height: auto;
+}
+ .main-text {
+     text-align: left;
+     font-family: 'Playfair Display', serif;
+     font-size: 14px;
+     line-height: 24px;
+}
+
+button::first-letter {
+    font-size: 150%;
+}
+
+button {
+    text-align: center;
+}
+button {
+    padding: 10px 30px;
+    margin: 72px auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(63, 60, 60);
+    background: white;
+    border: 2px rgb(153, 147, 147) solid;
+    line-height: 24px;
+}
