@@ -12,24 +12,39 @@ html{
 }
 /*SITE NAVIGATION*/
 nav {
-    margin: 77px 0;
+    margin: 70px 0;
+    /* text-decoration: black; */
 }
+
+
 .navigation_items a:hover,
 .navigation_items a:focus {
-    color: aqua;
+    color: #66c9f7;
 }
 .navigation {
     text-align: center;
-    margin-right: 166px;
+    margin-right: 200px;
+}
+
+.navigation_items li:not(:first-child) {
+    margin-left: 95px;
+    text-decoration: none;
 }
 .navigation_items li{
     display: inline-block;
-    margin-left: 102px;
+    margin-left: 90px;
     vertical-align: middle;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Libre Caslon Text', serif; 
+    font-weight: 550; 
     font-size: 14px;
-    font-style: normal;
 }
+
+.navigation_items a {
+    text-decoration: none;
+    color: #626262;
+    text-decoration-style: dotted;
+}
+
 /*main menu items*/
 .menu_items {
     margin-top: 27px;
@@ -73,19 +88,25 @@ main h2 {
 }
 
 button::first-letter {
-    font-size: 150%;
+    font-size: 100%;
 }
 
 button {
-    text-align: center;
+    display: block;
+    height: 65px;
+    width: 167px;
+    border: 1px rgb(153, 147, 147) solid;
+    background: white;
+    
+}
+
+button {
+    cursor: pointer;
 }
 button {
-    padding: 10px 30px;
-    margin: 72px auto;
-    font-family: 'Playfair Display', serif;
+    margin: 72px 470px;
+    font-family: 'Libre Caslon Text', serif;
     font-size: 20px;
     color: rgb(63, 60, 60);
-    background: white;
-    border: 2px rgb(153, 147, 147) solid;
     line-height: 24px;
 }
