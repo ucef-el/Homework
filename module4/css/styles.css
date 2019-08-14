@@ -167,7 +167,6 @@ html {
 }
 
 
-
 /* NEWS PART */
 
 .second-title {
@@ -176,6 +175,7 @@ html {
     font-size: 48px;
     color: #515151;
     text-align: center;
+    font-weight: bold;
 }
 
 h2::after {
@@ -203,6 +203,7 @@ h2::after {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #555252;
+    line-height: 26px;
  }
 
  h3::after {
@@ -219,6 +220,7 @@ h2::after {
      font-size: 14px;
      font-family: 'Open Sans', sans-serif;
      color: #555252;
+     line-height: 26px;
  }
 
  button {
