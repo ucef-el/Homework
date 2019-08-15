@@ -83,6 +83,8 @@ html {
     background: grey;
 }
 
+
+
 .main-title::after {
     content: "";
     display: block;
@@ -110,7 +112,7 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 9px;
-    padding-left: 7px;
+    padding-left: 13px;
 }
 
 .amount {
@@ -233,5 +235,6 @@ h2::after {
     color: white;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
  }
 
