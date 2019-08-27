@@ -83,23 +83,19 @@ main {
 .slider {
     position: relative;
     height: 600px;
-    width: 1110px;
     margin: auto;
 }
 
 .background-picture {
-    position: relative;
     background: url(../img/homework-05.png1.png);
     background-color: #181819;
-    width: 1558px;
-    height: 600px;
-    margin-left: -245px; 
+    width: 100%;
+    height: 100%;
 }
 .overlay {
     position: absolute;
-    margin-left: -245px;
-    width: 1558px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background-color:#000;
@@ -112,21 +108,11 @@ main {
     opacity: 1;
 }
 
-/* .slider:hover .slides-text {
-    opacity: 1;
-} */
 
 .button-prev, .button-next {
     opacity: 1;
 }
 
-/* .slider:hover .button-prev {
-    opacity: 1;
-} */
-
-/* .slider:hover .button-next {
-    opacity: 1;
-} */
 
 
 .slider li {
@@ -302,11 +288,11 @@ footer p {
 }
 
 .button-next {
-    left: 0;
+    left: 200px;
 }
 
 .button-prev {
-    right: 0;
+    right: 200px;
 }
 
 .products_items {
