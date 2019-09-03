@@ -212,6 +212,7 @@ img {
     background-image: linear-gradient(to bottom, #eb918a, #f2e391);
     transform: translateY(-472px);
     opacity: 0;
+    transition-duration: 200ms;
 }
 
 .overlay .icon {
@@ -224,7 +225,7 @@ img {
 }
 
 .menu-image:hover .overlay{
-    opacity: 0.9
+    opacity: 0.9;
 }
 
 .icon:hover {
