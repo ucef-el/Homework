@@ -71,14 +71,16 @@
                     <span class="second_sub_title">Lorem ipsum dolor, sit amet consectetur</span>
                 </div>
                 <form class="send_message_form" action="#">
-                    <input type="text" name="NAME"  placeholder="YOUR NAME *" required>
-                    <input type="email" name="E-mail" placeholder="YOUR E-MAIL *" required>
-                    <input type="text" name="subject" placeholder="SUBJECT">
-                    <textarea class="textarea_box" name="messages" rows="5" cols="45" placeholder="YOUR MESSAGE *" required></textarea>
+                    <div class="input_fields">
+                        <input type="text" name="name"  placeholder="YOUR NAME *" required autofocus>
+                        <input type="email" name="E-mail" placeholder="YOUR E-MAIL *" required>
+                        <input type="text" name="subject" placeholder="SUBJECT">
+                        <textarea class="textarea_box" name="messages" rows="5" cols="45" placeholder="YOUR MESSAGE *" required></textarea>
+                    </div>
+                    <div class="button_box">
+                        <button type="submit">send message</button>
+                    </div>
                 </form>
-                <div class="button_box">
-                    <button type="submit">send message</button>
-                </div>
             </div>
         </div>
     </section>
