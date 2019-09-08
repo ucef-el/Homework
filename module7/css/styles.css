@@ -194,6 +194,10 @@ html {
     height: 232px;
 }
 
+.main_page_menu li:not(:last-child) {
+    margin-right: 35px;
+}
+
 .icon_first {
     width: 73px;
     height: 73px;
@@ -366,13 +370,21 @@ input[name=E-mail]:invalid {
     outline: red solid 2px;
 }
 
-/* input[name=name]:valid {
+input[name=name]:valid {
     outline: green solid 2px;
 }
 
 input[name=name]:invalid {
     outline: red solid 2px;
-} */
+}
+
+textarea[name="messages"]:valid {
+    outline: green solid 2px;
+}
+
+textarea[name="messages"]:invalid {
+    outline: red solid 2px;
+}
 
 input {
     width: 455px;
