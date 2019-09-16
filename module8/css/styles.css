@@ -13,14 +13,20 @@ html {
     margin: 0 auto;
 }
 
+.header {
+    max-width: 320px;
+}
+
 .background-image {
     margin: 0;
     padding: 0;
-    width: 320px;
+    min-width: 320px;
+    /* width: 100%; */
     height: 540px;
-    background-image: url(../img/homework-08_Mobile.jpg1.jpg);
+    background-image: url(../desktop/homework-08_Desktop.jpg);
     background-size: cover;
     padding-top: 20px;
+    background-position: center center;
 }
 
 .navigation {
@@ -56,16 +62,23 @@ html {
     font-size: 14px;
 }
 
-.nav-buttons a:focus,
-.nav-buttons a:hover {
+.nav-buttons a {
     border: 2px solid #fff;
     border-radius: 20px;
+    border-color: transparent;
+    transition: border-color 200ms ease-in-out;
+}
+
+.nav-buttons a:focus,
+.nav-buttons a:hover {
+    border-color: #ffffff;
 }
 
 .nav-buttons a {
     text-decoration: none;
     color: #ffffff;
     padding: 10px 13px;
+
 }
 
 .header-title {
@@ -76,6 +89,7 @@ html {
     font-weight: bold;
     margin-top: 116px;
     margin-bottom: 0;
+    cursor: pointer; 
 }
 
 .main_text {
@@ -245,18 +259,19 @@ html {
     margin-bottom: 57px;
 }
 
-@media (min-width: 748px) {
+@media (min-width: 748px) and (max-width: 939px){
     .container {
         width: 748px;
+        max-width: 748px;s
         margin: 0 auto;
     }
 
     .background-image {
         margin: 0;
         padding: 0;
-        width: 748px;
+        width: 100%;
         height: 700px;
-        background-image: url(../tablet_img/homework-08_Tablet.jpg);
+        background-image: url(../desktop/homework-08_Desktop.jpg);
         background-size: cover;
         padding-top: 38px;
     }
@@ -309,11 +324,11 @@ html {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 0 128px;
     }
 
     .first-partner {
         width: 236px;
-        /* margin-bottom: 60px; */
         order: 1
     }
 
@@ -324,7 +339,6 @@ html {
 
     .third-partner {
         width: 236px;
-        /* margin-bottom: 60px; */
         order: 2
     }
 
@@ -374,12 +388,12 @@ html {
 
 @media (min-width: 940px) {
     .container {
-        width: 100%;
+        width: 940px;
         margin: 0 auto;
     }
 
     .background-image {
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         width: 100%;
         height: 700px;
@@ -392,6 +406,9 @@ html {
     .navigation {
         width: 940px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
     .partners {
@@ -408,6 +425,7 @@ html {
 
     .main_text {
         font-size: 52px;
+        width: 500px;
     }
         
     .second_text {
@@ -435,21 +453,25 @@ html {
     .first-partner {
         order:1; 
         width: 220px;
+        cursor: pointer;
     }
 
     .second-partner {
         order: 3;
         width: 220px;
+        cursor: pointer;
     }
 
     .third-partner {
         order: 2;
         width: 220px;
+        cursor: pointer;
     }
 
     .fourth-partner {
         order: 4;
         width: 220px;
+        cursor: pointer;
     }
 
     .partners {
@@ -485,4 +507,13 @@ html {
     .fourth_icon {
         transform: translateX(140px);
     }
-}
+
+    .header-title {
+        margin-top: 0;
+    }
+
+    .new_partners {
+        margin-bottom: 74px;
+        cursor: pointer;
+    }
+} 
