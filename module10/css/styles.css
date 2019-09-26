@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.background-img {
+    display: inline-block;
+    background-image: url(../img/homework-10.jpg1.jpg);
+    height: 1000px;
+    width: 100%;
+    background-size: contain;
+}
+/* section */
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* page-header__navigarion-box */
+
+.page-header__navigation-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+/* page-header */
+
+.page-header {
+    width: 1201px;
+    margin: 0 auto;
+}
+
+/* list */
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation__link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.site-navigation__item {
+    border-bottom: 2px solid #fce38a;
+}
+
+/* page-logo */
+
+.page-logo {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* site-navigation */
+
+.site-navigation {
+    width: 620px;
+}
+
+/* text box */
+
+.page-header__text-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
