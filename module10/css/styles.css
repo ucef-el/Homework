@@ -67,6 +67,11 @@ html {
     border-bottom: 2px solid #fce38a;
 }
 
+.site-navigation__link svg {
+    display: inline-block;
+    fill: #fff;
+}
+
 /* page-logo */
 
 .page-logo {
@@ -90,3 +95,4 @@ html {
     flex-direction: column;
     margin-top: 170px;
 }
+
