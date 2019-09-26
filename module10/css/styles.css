@@ -17,7 +17,7 @@ html {
 
 .background-img {
     display: inline-block;
-    background-image: url(../img/homework-10.jpg1.jpg);
+    background-image: url(../img/images/homework-10.jpg1.jpg);
     height: 1000px;
     width: 100%;
     background-size: contain;
@@ -63,7 +63,7 @@ html {
     text-transform: uppercase;
 }
 
-.site-navigation__item {
+.site-navigation__link:hover {
     border-bottom: 2px solid #fce38a;
 }
 
