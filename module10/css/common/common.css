@@ -1,0 +1,50 @@
+.button {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section  {
+    width: 1201px;
+    margin: 0 auto;
+}
+
+.first-title{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.second-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+

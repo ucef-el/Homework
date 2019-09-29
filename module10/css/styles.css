@@ -1,3 +1,12 @@
+@import "./common/common.css";
+@import "./container/container.css";
+@import "./page-footer/page-footer.css";
+@import "./page-header/page-header.css";
+@import "./page-logo/page-logo.css";
+@import "./page-navigation/page-navigation.css";
+@import "./page-services/page-services.css";
+@import "./page-team-members/page-team-members.css";
+
 html {
     box-sizing: border-box;
 }
@@ -8,91 +17,20 @@ html {
     box-sizing: inherit;
 }
 
-.container {
-    width: 1920px;
-    margin: 0 auto;
-}
 
-/* HEADER */
 
-.background-img {
-    display: inline-block;
-    background-image: url(../img/images/homework-10.jpg1.jpg);
-    height: 1000px;
-    width: 100%;
-    background-size: contain;
-}
-/* section */
 
-.section {
-    display: flex;
-    flex-direction: column;
-}
 
-/* page-header__navigarion-box */
 
-.page-header__navigation-box {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 35px;
-}
 
-/* page-header */
 
-.page-header {
-    width: 1201px;
-    margin: 0 auto;
-}
 
-/* list */
 
-.list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
+ 
+ 
 
-.site-navigation__link {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: #fff;
-    font-weight: 400;
-    text-transform: uppercase;
-}
 
-.site-navigation__link:hover {
-    border-bottom: 2px solid #fce38a;
-}
 
-.site-navigation__link svg {
-    display: inline-block;
-    fill: #fff;
-}
 
-/* page-logo */
 
-.page-logo {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-/* site-navigation */
-
-.site-navigation {
-    width: 620px;
-}
-
-/* text box */
-
-.page-header__text-box {
-    display: flex;
-    flex-direction: column;
-    margin-top: 170px;
-}
 

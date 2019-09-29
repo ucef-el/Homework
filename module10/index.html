@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="normalize" href="normalize/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Module 10</title>
 </head>
 <body class="container">
     <section class="background-img">
-        <header class="section page-header">
+    <div class="overlay">    
+        <header class="section page-header"> 
             <div class="page-header__navigation-box">
                 <span class="page-logo">mogo</span>
                 <nav class="page-navigation">
@@ -32,15 +36,15 @@
                         </li>
                         <li class="site-navigation__item">
                             <a href="#" class="site-navigation__link">
-                                <svg width="32" height="32">
-                                    <use xlink:href="img/icon/sprite/sprite.svg#icon-loop"></use>
+                                <svg>
+                                    <use xlink:href="img/icon/sprite/sprite.svg#icon-cart"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="site-navigation__item">
                             <a href="#" class="site-navigation__link">
-                                <svg width="38" height="32">
-                                    <use xlink:href="img/icon/sprite/sprite.svg#icon-cart"></use>
+                                <svg>
+                                    <use xlink:href="img/icon/sprite/sprite.svg#icon-loop"></use>
                                 </svg>
                             </a>
                         </li>
@@ -48,11 +52,184 @@
                 </nav>
             </div>
             <div class="page-header__text-box">
-                <h2 class="page-header__title">Creative Template</h2>
-                <h2 class="page-header__sub-title">welcome to mogo</h2>
-                <button class="page-header__btn" name="button" type="button">learn more</button>
-            </div>
+                <h2 class="first-title page-header__first-title">Creative Template</h2>
+                <h3 class="second-title page-header__second-title">welcome to mogo</h3>
+                <button class="button page-header__btn" name="button" type="button">learn more</button>
+            </div>     
         </header>
-    </section>    
+    </div>        
+    </section>  
+    <section class="section page-services">
+        <h2 class="first-title page-services__first-title">We work with</h2>
+        <h3 class="second-title page-services__second-title">amazing services</h3>
+        <Ul class="list page-services-list">
+            <li class="page-services-list__item">
+                <svg class="clock page-services-list__icons">
+                    <use xlink:href="img/icon/sprite/sprite2.svg#icon-clock"></use>
+                </svg>
+                <div>
+                    <h2 class="title page-services-list__title">photography</h2>
+                    <p class="paragraph page-services-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias architecto quos suscipit</p>
+                </div>
+            </li>
+            <li class="page-services-list__item">
+                <svg class="line page-services-list__icons">
+                    <use xlink:href="img/icon/sprite/sprite2.svg#icon-line"></use>
+                </svg>
+                <div class="page-services-list__description">
+                    <h2 class="title page-services-list__title">photography</h2>
+                    <p class="paragraph page-services-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias architecto quos suscipit</p>
+                </div>
+            </li>
+            <li class="page-services-list__item">
+                <svg class="computer page-services-list__icons">
+                    <use xlink:href="img/icon/sprite/sprite2.svg#icon-computer"></use>
+                </svg>
+                <div class="page-services-list__description">
+                    <h2 class="title page-services-list__title">photography</h2>
+                    <p class="paragraph page-services-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias architecto quos suscipit</p>
+                </div>
+            </li>
+            <li class="page-services-list__item">
+                <svg class="book page-services-list__icons">
+                    <use xlink:href="img/icon/sprite/sprite2.svg#icon-book"></use>
+                </svg>
+                <div class="page-services-list__description">
+                    <h2 class="title page-services-list__title">photography</h2>
+                    <p class="paragraph page-services-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias architecto quos suscipit</p>
+                </div>
+            </li>
+            <li class="page-services-list__item">
+                <svg class="home page-services-list__icons">
+                    <use xlink:href="img/icon/sprite/sprite2.svg#icon-home"></use>
+                </svg>
+                <div class="page-services-list__description">
+                    <h2 class="title page-services-list__title">photography</h2>
+                    <p class="paragraph page-services-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias architecto quos suscipit</p>
+                </div>
+            </li>
+            <li class="page-services-list__item">
+                <svg class="image page-services-list__icons">
+                    <use xlink:href="img/icon/sprite/sprite2.svg#icon-image"></use>
+                </svg>
+                <div class="page-services-list__description">
+                    <h2 class="title page-services-list__title">photography</h2>
+                    <p class="paragraph page-services-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias architecto quos suscipit</p>
+                </div>
+            </li>
+        </Ul>
+    </section>
+    <section class="section page-team-members">
+        <h2 class="first-title page-services__first-title">Who we are</h2>
+        <h3 class="second-title page-services__second-title">meet our team</h3>
+        <p class="paragraph page-team-members__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet saepe ab modi dolorem fugit nobis, fuga totam iste similique deleniti excepturi, ad incidunt rem amet. Fugit eligendi temporibus qui corporis?</p>
+        <ul class="list page-team-members__list">
+            <li class="page-team-members__item">
+                <div class="page-team-members__image-box">
+                    <img class="page-team-members__image" srcset="img/images2/member1.png 380w, img/images2/member1@2x.png 760w"
+                    sizes="380px" 
+                    src="img/images2/member1.png" alt="developer"
+                    height="470">
+                </div>
+                <div class="page-team-members__overlay">
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--facebook">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--twitter">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--pinterest">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-pinterest"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">    
+                        <svg class="page-team-members__icon page-team-members__icon--instagram">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <span class="title page-team-members__item--name">matthew dix</span>
+                <span class="paragraph page-team-members__item--speciality">Graphic Designer</span>
+            </li>
+            <li class="page-team-members__item">
+                <div class="page-team-members__image-box">
+                    <img class="page-team-members__image" srcset="img/images2/member2.png 380w, img/images2/member2@2x.png 760w"
+                    sizes="380px" 
+                    src="img/images2/member1.png" alt="developer"
+                    height="470">
+                </div>
+                <div class="page-team-members__overlay">
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--facebook">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--twitter">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--pinterest">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-pinterest"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">    
+                        <svg class="page-team-members__icon page-team-members__icon--instagram">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <span class="title page-team-members__item--name">christopher campbell</span>
+                <span class="paragraph page-team-members__item--speciality">Branding/UX design</span>
+            </li>
+            <li class="page-team-members__item">
+                <div class="page-team-members__image-box">
+                    <img class="page-team-members__image" srcset="img/images2/member3.png 380w, img/images2/member3@2x.png 760w"
+                    sizes="380px" 
+                    src="img/images2/member1.png" alt="developer"
+                    height="470">
+                </div>
+                <div class="page-team-members__overlay">
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--facebook">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--twitter">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">
+                        <svg class="page-team-members__icon page-team-members__icon--pinterest">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-pinterest"></use>
+                        </svg>
+                    </a>
+                    <a class="page-team-members__link" href="#">    
+                        <svg class="page-team-members__icon page-team-members__icon--instagram">
+                            <use xlink:href="img/icon/sprite/sprite3.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <span class="title page-team-members__item--name">micheal fertig</span>
+                <span class="paragraph page-team-members__item--speciality">Developer</span>
+            </li>
+        </ul>
+    </section> 
+    <footer class="section page-footer">
+        <div class="page-footer__information">
+            <span class="text page-footer__information--dark">&#169; 2016 MoGo free PSD template by</span>
+            <span class="text page-footer__information--red">Laaqiq</span>
+        </div>
+        <div class="page-footer__submit">
+            <input class="page-footer__submit--input" type="email" name="Email" placeholder="Your Email..."><button class="text page-footer__submit--btn" type="button">subscribe</button>
+        </div>
+    </footer> 
 </body>
 </html>

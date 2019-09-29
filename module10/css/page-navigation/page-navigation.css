@@ -1,0 +1,40 @@
+.page-header__navigation-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.site-navigation {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.site-navigation__link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+}
+
+.site-navigation__link:hover {
+    border-bottom: 2px solid #fce38a;   
+}
+
+.site-navigation__link svg {
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    fill: #fff;
+}
+
+.site-navigation {
+    width: 620px;
+}
