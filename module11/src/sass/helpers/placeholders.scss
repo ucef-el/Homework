@@ -1,0 +1,45 @@
+%section  {
+    width: 1201px;
+    margin: 0 auto;
+}
+
+%button {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+%title {
+    font-family: $Primary-font-stack;
+    font-size: $Main-text-size;
+    color: $Secondary-color;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+%paragraph {
+    font-family: $Secondary-font-stack;
+    font-size: $Secondary-text-size;
+    color: $Main-color;
+}
+
+%list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+%first-title{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+%second-title{
+    font-family: $Primary-font-stack;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}

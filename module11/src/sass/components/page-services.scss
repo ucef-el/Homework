@@ -1,0 +1,63 @@
+.page-services{
+    @extend %section;
+}
+
+.page-services-list {
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-services-list__title {
+    @extend %title;
+}
+
+.page-services__first-title {
+    @extend %first-title;
+    font-size: 24px;
+    color: $Secondary-color;
+    margin-top: 90px;
+}
+
+.page-services__second-title {
+    @extend %second-title;
+    margin-top: 24px;
+    font-size: 30px;
+    color: $Secondary-color;
+}
+
+.page-services__second-title::after {
+    @include pseudo;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto; 
+    margin-top: 42px;
+    margin-bottom: 65px;
+}
+
+/* .page-services-list__icons */
+
+.page-services-list__img {
+    margin-right: 28px;
+}
+
+/* page-services-list__item */
+
+.page-services-list__item {
+    display: flex;
+    width: 383px;
+}
+
+.page-services-list__description {
+    width: 301px;
+}
+
+.page-services-list li:nth-child(-n+3) {
+    margin-bottom: 100px;
+}
+
+.page-services-list__text {
+    @extend %paragraph;
+    line-height: 1.5;
+}

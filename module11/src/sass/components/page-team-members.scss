@@ -1,0 +1,139 @@
+.page-team-members {
+    @extend %section;
+}
+
+.page-team-members__text {
+    text-align: center;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.page-team-members__icon {
+    display: inline-block;
+    fill: #f38181;
+    z-index: 0;
+
+    &--facebook {
+        width: 13px;
+        height: 27px;
+    }
+
+    &--instagram {
+        width: 26px;
+        height: 26px;
+    }
+
+    &--pinterest {
+        width: 20px;
+        height: 26px;
+    }
+
+    &--twitter {
+        width: 26px;
+        height: 22px;
+    }
+}
+
+.page-team-members__image-box {
+    background: #95e1d3;
+    position: relative;
+    width: 380px;
+    height: 471px;
+}
+
+.page-team-members__overlay {
+    @include center-flex ('all');
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    transform: translateY(-471px);
+    background-image: linear-gradient(to bottom, #ef898a, #eed687);
+    opacity: 0;  
+    transition: transform 200ms ease; 
+}
+
+/* page-team-members__link */
+
+.page-team-members__link {
+    @include center-flex ('all');
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+
+    &:hover {
+        background-color: #f38181;
+    }
+
+    &:hover .page-team-members__icon {
+        fill: $Primary-color;
+    }
+
+    &:not(:last-child){
+        border-right: 1px solid #f38181;
+    }
+
+    &:hover .page-team-members__icon {
+        fill: $Primary-color;
+    }
+}
+
+/* page-team-members__item */
+
+
+.page-team-members__item:hover .page-team-members__overlay {
+    opacity: 0.8;
+    transform: translate(-10px, -481px);
+}
+
+
+.page-team-members__image {
+    transition: transform 200ms ease;
+}
+
+.page-team-members__item:hover .page-team-members__image {
+    transform: translate(-10px, -10px);
+}
+
+/* page-team-members__item--name */
+
+.page-team-members__item--name {
+    @extend %title;
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+    font-weight: bold;
+}
+
+.page-team-members__item--speciality {
+    @extend %paragraph;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* page-team-members__list */
+
+.page-team-members__list {
+    @extend %list;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-team-members__text {
+    @extend %paragraph;
+    line-height: 1.5;
+}
+
+.page-services__second-title {
+    margin-bottom: 55px;
+}
+
+.page-services-list{
+    @include center-flex ('hor');
+}
+
+.page-services-list__item {
+    padding-left: 20px;
+    padding-right: 35px;
+}

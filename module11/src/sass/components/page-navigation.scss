@@ -1,0 +1,39 @@
+.page-header__navigation-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.site-navigation {
+    @extend %list;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.site-navigation__link {
+    text-decoration: none;
+    font-family: $Primary-font-stack;
+    font-size: $Main-text-size;
+    color: $Primary-color;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+
+    &:focus,
+    &:hover {
+        border-bottom: 2px solid #fce38a;   
+    }
+}
+
+
+.site-navigation__link svg {
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    fill: $Primary-color;
+}
+
+.site-navigation {
+    width: 620px;
+}
